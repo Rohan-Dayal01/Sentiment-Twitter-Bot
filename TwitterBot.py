@@ -9,11 +9,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 def main():
     # This call to simple_twit.create_api will create the api object that
     # Tweepy needs in order to make authenticated requests to Twitter's API.
-    # Do not remove or change this function call.
-    # Pass the variable "api" holding this Tweepy API object as the first
-    # argument to simple_twit functions.
     api = simple_twit.create_api()
-    # YOUR CODE BEGINS HERE
     simple_twit.version()
     CONFIG_FILE = "twitter_bot.config"
     consumer_key = "#################";
